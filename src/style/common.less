@@ -1,0 +1,80 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, i, b, textarea, button, input, select  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: #313131;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-family: 'Microsoft YaHei';
+    -webkit-tap-highlight-color:transparent;
+    // 获得焦点
+    &:focus {
+        outline: none;
+    }
+}
+
+/* less
+一门 CSS 预处理语言，它扩充了 CSS 语言，增加了诸如变量、混合（mixin）、函数等功能
+通过js实现
+变量：@base、@color
+混合（mixin）：
+函数：
+等于，小于大于条件判断
+.mixin (@a) when (lightness(@a) >= 50%) {
+  background-color: black;
+}
+.mixin (@a) when (lightness(@a) < 50%) {
+  background-color: white;
+}
+.mixin (@a) {
+  color: @a;
+}
+ */
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url(../images/1-1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear{
+    zoom:1;
+}
+
+.back_img{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.margin{
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
