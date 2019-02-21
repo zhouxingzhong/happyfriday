@@ -7,7 +7,7 @@
 # 安装依赖
 npm install 或 yarn(推荐)
 
-# 开启本地服务器localhost:8088
+# 开启本地服务器localhost:8080
 npm run dev
 
 # 发布环境
